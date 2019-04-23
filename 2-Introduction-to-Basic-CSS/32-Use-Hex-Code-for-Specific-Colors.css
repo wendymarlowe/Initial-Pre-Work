@@ -1,0 +1,8 @@
+/*Summary: CSS can use 6 hexadecimal digits to represent colors.  2 each for
+red, green, and blue. #000000 is black and the lowest possible value.
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>

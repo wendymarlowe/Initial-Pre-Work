@@ -1,0 +1,26 @@
+/*Summary: From the 3 colors of red, green and blue we can create 16 million other
+colors.  0 is the lowest value and represents a complete absence of color. F is
+the highest value represents maximum brightness. */
+
+<style>
+  .red-text {
+    color: #FF0000;
+  }
+  .green-text {
+    color: #00FF00;
+  }
+  .dodger-blue-text {
+    color: #1E90FF;
+  }
+  .orange-text {
+    color: #FFA500;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="green-text">I am green!</h1>
+
+<h1 class="dodger-blue-text">I am dodger blue!</h1>
+
+<h1 class="orange-text">I am orange!</h1>

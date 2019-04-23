@@ -1,0 +1,8 @@
+/*Summary: Every HTML page has a body element and can be styled with CSS.
+Here we set the background-color of the HTML body to black*/
+
+<style>
+  body {
+    background-color: black;
+  }
+</style>

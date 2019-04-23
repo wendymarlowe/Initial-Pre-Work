@@ -1,0 +1,19 @@
+/*Summary: Class declarations overide body declarations.  The order of the Class
+declarations is important, the second one will always overide the first one.  In this
+case, .blue-text class overides the .pink-text class.*/
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
