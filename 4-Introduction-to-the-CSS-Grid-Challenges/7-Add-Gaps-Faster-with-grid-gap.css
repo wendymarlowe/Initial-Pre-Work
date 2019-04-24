@@ -1,0 +1,33 @@
+/*Summary: grid-gap is shorthand for setting both the grid-row-gap and
+the grid-column-gap.  Giving it one number will create the same gap between the
+rows and columns.  Giving it two numbers will set the row gap for the first number
+and the column gap for the second number. */
+
+<style>
+  .d1{background:LightSkyBlue;}
+  .d2{background:LightSalmon;}
+  .d3{background:PaleTurquoise;}
+  .d4{background:LightPink;}
+  .d5{background:PaleGreen;}
+
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* add your code below this line */
+
+    grid-gap: 10px 20px;
+    /* add your code above this line */
+  }
+</style>
+<div class="container">
+  <div class="d1">1</div>
+  <div class="d2">2</div>
+  <div class="d3">3</div>
+  <div class="d4">4</div>
+  <div class="d5">5</div>
+</div>
