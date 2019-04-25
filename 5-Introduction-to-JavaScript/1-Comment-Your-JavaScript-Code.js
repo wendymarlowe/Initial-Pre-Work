@@ -1,3 +1,9 @@
-// Please remember to include a summary statement with EACH FILE regarding what you learned from the lesson in this format!  I recommend keeping it at the top of each file for faster processing of your application.
+/*Summary: Learned in-line and multi-line comments.  Comments are important pieces
+of coding. They help explain and describe what sections of code do.  It helps other
+developers understand what is going on.*/
 
-// Copy your code from the central panel of the freeCodeCamp page and paste it below after successfully passing the test.  You will have to click on the X at the top right of the modal that pops up to see the code. If you forget, just rerun the test.  You are also welcome to download your solution.
+//in-line comment - everything after the comment is ignored by JS
+
+/*multi-line comments
+are contained within
+a pair of backslashes and stars */
