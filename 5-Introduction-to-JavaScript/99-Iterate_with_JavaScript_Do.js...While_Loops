@@ -1,0 +1,16 @@
+/*Summary: Do...while loops will first do one loop through the code, no matter what.
+Then it will continue with the loop while a condition is true. It will exit the
+loop once the condition is false.*/
+
+// Setup
+var myArray = [];
+var i = 10;
+
+// myArray will equal 10 since the do runs no matter what. The while will not
+//run since the condition is not met.
+do {
+  myArray.push(i);
+  i++;
+  console.log(myArray);
+}
+while (i < 5);
