@@ -4,36 +4,38 @@
 
 ## When we hit https://www.techtonic.com/ what happens? Don’t focus too much on architecture (Monolithic, SOA, Microservices, etc.). Try to focus more on how the web functions in general terms/steps.
 
-put your answer here
+The browser will contact a Domain Name Server (DNS) to retrieve the IP address associated with the techtonic URL. All domain names are associated with an IP address as domain names are easier for humans to remember.  The IP address is then returned to the browser (client) and the browser uses the IP address to find the web server on the internet that stores the web page. The server returns the html page to the client, the browser renders the HTML to display the webpage to the user.
+
 
 ## From start to finish, how does data reach you to be rendered in the browser?
 
-put your answer here
+The client-side code makes a request, the server-side code processes that request and returns a response.
 
 ## What code is rendered in the browser?
 
-put your answer here
+HTML.
 
 ## What is the server-side code’s main function?
 
-put your answer here
+The function of server-side code is to process requests from the client.  For example, when a user completes a form and pushes the submit button on the client, the information is sent to the server, processed and stored in the database.  The server-side code may also return a page to the client indicating a success or failure of the process.
+
 
 ## What is the client-side code’s main function?
 
-put your answer here
+The function of client-side code is to display information to the user in a browser. It provides a dynamic web-surfing experience, allowing the user to interact with forms and buttons, videos, etc.
 
 ## What is runtime?
 
-put your answer here
+Runtime is the time during which a program is running.
 
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
 
-put your answer here
+As many copies as there are clients accessing the server.
 
 ## How many instances of the server-side code are available at any given time?
 
-put your answer here
+One per server.
 
 ## How many instances of the databases connected to the server application are created?
 
-put your answer here
+One instance.
